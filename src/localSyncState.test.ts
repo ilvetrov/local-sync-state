@@ -112,4 +112,19 @@ describe('localSyncState', () => {
 
     expect(log).toEqual<typeof log>(['onUpdate', 'syncCode'])
   })
+
+  it('updating is immutable', () => {
+    const state = localSyncState({
+      number: 1,
+    })
+
+    const oldState = state.get()
+
+    state.set((prevState) => ({
+      ...prevState,
+      number: prevState.number + 1,
+    }))
+
+    expect(oldState === state.get()).toBe(false)
+  })
 })

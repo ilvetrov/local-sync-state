@@ -2,6 +2,11 @@
 
 LocalSyncState is a synchronous state in one object.
 
+- [Why?](#why)
+- [Usage](#usage)
+- [React](#react)
+- [Browser](#browser)
+
 ## Why?
 
 ### :blue_heart: TypeScript + Defensive Types
@@ -14,7 +19,7 @@ You remove the default state — now it is: `type | undefined` (like [React's us
 
 ### :cyclone: Synchronous
 
-Your subscribers (via onUpdate) get the new state **really** instantly.
+Your subscribers (via onUpdate) get the new state **really** instantly. [See example.](#synchronous-example)
 
 Excellent for high-load operations.
 

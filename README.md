@@ -13,9 +13,9 @@ LocalSyncState is a synchronous state in one object.
 
 You remove the default state — now it is: `type | undefined` (like [React's useState](https://www.npmjs.com/package/@types/react)).
 
-<img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/test/docs/defensive-state-with-default.png" />
+<img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/main/docs/defensive-state-with-default.png" />
 
-<img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/test/docs/defensive-state-without-default.png" />
+<img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/main/docs/defensive-state-without-default.png" />
 
 ### :cyclone: Synchronous
 

@@ -1,7 +1,7 @@
 {
   "name": "local-sync-state",
   "version": "1.0.0",
-  "description": "LocalSyncState is synchronous state in one object",
+  "description": "LocalSyncState is a synchronous state in one object",
   "author": "ilvetrov",
   "license": "Apache-2.0",
   "repository": {

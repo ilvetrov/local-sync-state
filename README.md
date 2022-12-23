@@ -100,9 +100,12 @@ import localSyncState from 'local-sync-state'
 
 const numberState = localSyncState(0)
 
-numberState.onUpdate((state, prevState) => {
+const destroyer = numberState.onUpdate((state, prevState) => {
   // Your subscriber
 })
+
+// Delete this subscriber
+destroyer()
 ```
 
 ### update
@@ -115,6 +118,18 @@ import localSyncState from 'local-sync-state'
 const numberState = localSyncState(0)
 
 numberState.update()
+```
+
+### destroy
+
+Delete all subscribers and block the addition of new subscribers.
+
+```ts
+import localSyncState from 'local-sync-state'
+
+const numberState = localSyncState(0)
+
+numberState.destroy()
 ```
 
 ## Synchronous Example

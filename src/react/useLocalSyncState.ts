@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import localSyncState, { LocalSyncState } from '../localSyncState'
+import localSyncState, { LocalSyncState } from '../localSyncState.js'
 
 export function useLocalSyncState<T = undefined>(): LocalSyncState<T | undefined>
 

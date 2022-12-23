@@ -8,14 +8,19 @@
     "type": "git",
     "url": "https://github.com/ilvetrov/local-sync-state.git"
   },
-  "type": "module",
   "main": "./dist/localSyncState.js",
-  "module": "./dist/localSyncState.js",
+  "module": "./dist/localSyncState.mjs",
   "typings": "./dist/localSyncState.d.ts",
   "exports": {
-    ".": "./dist/localSyncState.js",
+    ".": {
+      "import": "./dist/localSyncState.mjs",
+      "require": "./dist/localSyncState.js"
+    },
     "./browser": "./dist/browser/local-sync-state.browser.min.js",
-    "./react": "./dist/react/useLocalSyncState.js",
+    "./react": {
+      "import": "./dist/react/useLocalSyncState.mjs",
+      "require": "./dist/react/useLocalSyncState.js"
+    },
     "./package.json": "./package.json"
   },
   "typesVersions": {

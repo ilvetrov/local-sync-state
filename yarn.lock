@@ -2692,6 +2692,11 @@ istanbul-reports@^3.1.3:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
+jest-chain-transform@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/jest-chain-transform/-/jest-chain-transform-0.0.5.tgz#678fd4cdee417332c09c9d94f4dd489f97949a7d"
+  integrity sha512-5lmLEPg2Ygm5m+KqXx6pFAPTHATxLoL472r0Shv1261jMWr83EwucDfsnVFWhjCBdNxCH4fM/HXWGdrTQC0NcA==
+
 jest-changed-files@^28.1.3:
   version "28.1.3"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-28.1.3.tgz#d9aeee6792be3686c47cb988a8eaf82ff4238831"
@@ -2939,6 +2944,11 @@ jest-regex-util@^28.0.2:
   version "28.0.2"
   resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-28.0.2.tgz#afdc377a3b25fb6e80825adcf76c854e5bf47ead"
   integrity sha512-4s0IgyNIy0y9FK+cjoVYoxamT7Zeo7MhzqRGx7YDYmaQn1wucY9rotiGkBzzcMXTtjrCAP/f7f+E0F7+fxPNdw==
+
+jest-remove-path-extension@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/jest-remove-path-extension/-/jest-remove-path-extension-0.2.0.tgz#f9b2ac9623a5e566b0e122a1716a5d5e38ad6d3e"
+  integrity sha512-snWizGZEOL29/PUNCRTW+GRqz+YP1JZIMQf1gl9ppHivGvlNC6IzrGIHpYwR//hNsxptMBDae4J6iAiSKb01CA==
 
 jest-resolve-dependencies@^28.1.3:
   version "28.1.3"

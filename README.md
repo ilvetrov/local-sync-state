@@ -1,4 +1,6 @@
-# LocalSyncState
+<p>
+  <img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/main/logo.svg" width="235" height="240" />
+</p>
 
 LocalSyncState is a synchronous state in one object.
 

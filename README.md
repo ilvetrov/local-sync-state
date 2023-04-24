@@ -1,5 +1,5 @@
 <p>
-  <img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/main/logo.svg" width="235" height="240" />
+  <img src="https://raw.githubusercontent.com/ilvetrov/local-sync-state/main/logo.svg" width="200" height="204" />
 </p>
 
 LocalSyncState is a synchronous state in one object.
